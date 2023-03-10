@@ -21,7 +21,7 @@ spec:
     metadata:
       namespace: supplychain-ns
     image:
-      containerName: ghcr.io/hyperledger/bevel-corda:4.9
+      containerName: ghcr.io/hyperledger/bevel-corda:latest
       initContainerName: ghcr.io/hyperledger/alpine-utils:1.0
       imagePullSecret: regcred
       privateCertificate: true
