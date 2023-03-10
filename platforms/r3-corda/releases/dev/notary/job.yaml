@@ -108,6 +108,7 @@ spec:
       certsecretprefix: notary/data/certs
       retries: 10
         
+
     healthcheck:
       readinesscheckinterval: 10
       readinessthreshold: 15
