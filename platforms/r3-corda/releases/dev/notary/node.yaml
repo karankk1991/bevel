@@ -81,6 +81,7 @@ spec:
         - name: notaryoperations
           permissions: [ALL]
 
+
     cordapps:
       getcordapps: false
         
