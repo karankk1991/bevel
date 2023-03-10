@@ -82,10 +82,7 @@ spec:
           permissions: [ALL]
 
     cordapps:
-      getcordapps: true
-      jars:
-        - url: https://repo/path/cordapp1.jar
-        - url: https://repo/path/cordapp2.jar
+      getcordapps: false
         
     volume:
       baseDir: /base/corda
